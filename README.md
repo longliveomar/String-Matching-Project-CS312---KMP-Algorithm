@@ -1,5 +1,3 @@
-Got it! Here is the entire README content **all inside one markdown block** so you can copy-paste it straight into your VS Code README.md file without any split:
-
 ````markdown
 # String Matching Project (CS312) - KMP Algorithm
 
