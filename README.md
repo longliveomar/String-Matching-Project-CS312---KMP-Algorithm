@@ -30,27 +30,6 @@ The goal is to detect every starting index in the text where the pattern appears
 - Here, **n** is the length of the text, and **m** is the length of the pattern.
 - The algorithm preprocesses the pattern to create an LPS (Longest Prefix Suffix) array, then scans the text efficiently to find all matches without redundant comparisons.
 
----
-
-## How to Run
-
-1. Make sure you have Python 3 installed.  
-2. Install dependencies:  
-   ``
-   pip install matplotlib
-   python kmp_gui.py
-``
-   In the GUI:
-
-Paste or type your text into the Text box.
-
-Enter the pattern to search in the Pattern field.
-
-Click Search Pattern to see matches and execution details.
-
-Click Show Performance Graph to view runtime scaling.
-
-----
 Author
 Omar – Arab Academy for Science, Technology, and Maritime Transport (AAST)
 
