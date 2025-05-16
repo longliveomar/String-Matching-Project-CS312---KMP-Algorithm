@@ -46,7 +46,7 @@ The goal is to detect every starting index in the text where the pattern appears
 3. Run the GUI application:
 
    ```bash
-   python kmp_gui.py
+   python proj.py
    ```
 4. In the GUI:
 
@@ -75,9 +75,8 @@ This input size is small, so the search is completed almost instantly.
 ## Project Structure
 
 ```
-├── kmp_gui.py       # Main Python GUI application file
-├── README.md        # This README file
-└── screenshots/     # (Optional) folder for screenshots of GUI and performance graph
+├── proj.py      # Main Python GUI application file
+└── README.md        # This README file
 ```
 
 ---
