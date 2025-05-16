@@ -36,10 +36,10 @@ The goal is to detect every starting index in the text where the pattern appears
 
 1. Make sure you have Python 3 installed.  
 2. Install dependencies:  
-   ```bash
+   ``
    pip install matplotlib
    python kmp_gui.py
-`
+``
    In the GUI:
 
 Paste or type your text into the Text box.
