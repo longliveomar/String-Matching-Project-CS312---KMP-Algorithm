@@ -15,12 +15,12 @@ from tkinter import messagebox, scrolledtext
 
 # --------- KMP Logic ---------
 
-def compute_lps(pattern):
-    lps = [0] * len(pattern)
+def compute_lps(pattern): # Longest Prefix Suffix
+    lps = [0] * len(pattern) #lps[i] is the length of the longest proper prefix which is also a suffix for pattern[0..i]
     length = 0
     i = 1
 
-    while i < len(pattern):
+    while i < len(pattern): 
         if pattern[i] == pattern[length]:
             length += 1
             lps[i] = length
