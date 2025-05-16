@@ -39,7 +39,7 @@ The goal is to detect every starting index in the text where the pattern appears
    ```bash
    pip install matplotlib
    python kmp_gui.py
-''
+`
    In the GUI:
 
 Paste or type your text into the Text box.
